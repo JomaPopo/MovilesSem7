@@ -67,7 +67,7 @@ public class UIMenu : MonoBehaviour
 
         playerNameTxt.text = "Nombre: " + data.playerName;
         levelTxt.text = "Nivel: " + data.level;
-        expTxt.text = $"{data.experience}/{PlayerManager.Instance.GetExpToNextLevel()}";
+        expTxt.text = "Exp" + $"{data.experience}/{PlayerManager.Instance.GetExpToNextLevel()}";
         skillPointsTxt.text = "Puntos: " + data.skillPoints;
 
         strengthTxt.text = "Fuerza: " + data.strength;
